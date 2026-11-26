@@ -1,0 +1,14 @@
+{
+  "name": "taskmate-fullstack-demo",
+  "private": true,
+  "version": "2.0.0",
+  "description": "TASKMATE React, Express and local MongoDB demo",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev": "concurrently --kill-others -n BACKEND,FRONTEND \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "test": "npm run test -w backend && npm run test -w frontend",
+    "build": "npm run build -w frontend"
+  },
+  "devDependencies": {"concurrently": "^9.1.2"},
+  "engines": {"node": ">=20"}
+}

@@ -1,0 +1,6 @@
+node_modules/
+.env
+.data/
+data/.local-demo-data.json
+data/.local-demo-data.json.tmp
+data/mongodb-binary-cache/

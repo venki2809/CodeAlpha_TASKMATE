@@ -1,0 +1,9 @@
+node_modules/
+frontend/dist/
+frontend/.env
+backend/.env
+backend/data/.local-demo-data.json
+backend/data/.local-demo-data.json.tmp
+backend/data/mongodb-binary-cache/
+*.log
+.DS_Store
